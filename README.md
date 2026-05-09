@@ -575,3 +575,38 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">
   Built with GraphQL and Apollo Server
 </p>
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Client[Client] -->|GraphQL| Apollo[Apollo Server]
+    Apollo --> Resolvers[Resolvers]
+    Resolvers --> DL[DataLoader Batching]
+    DL --> Models[Content Models]
+    Models --> Store[(Storage)]
+    Apollo --> Auth[Auth Middleware]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**116 passing**, **0 failing**, **0 skipped** (total 116, framework: Jest)
+
+## References & Further Reading
+
+- Byron, L. (2015). *GraphQL: A query language for APIs.* [↗](https://graphql.org/)
+- Apollo DataLoader Pattern. None [↗](https://github.com/graphql/dataloader)
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/graphql-cms-server) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->
