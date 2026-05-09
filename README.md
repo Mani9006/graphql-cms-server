@@ -580,6 +580,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <!-- showcase:start -->
 
+## Research Report
+
+**GraphQL Schema Design and DataLoader Performance for a Headless CMS**
+
+_An evaluation of N+1 mitigation, persisted queries, and tracing on a representative content corpus_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** GraphQL, headless CMS, DataLoader, persisted queries, schema design
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
